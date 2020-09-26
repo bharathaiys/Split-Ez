@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <title>split-ez</title>
+</head>
+<body>
+
+    <div id="top">
+        <img src="img/Group 4.png" alt="" id="logo">
+        <img src="img/Group 11.png" alt="" id="nav">
+    </div>
+    <div id="bot">
+        <div id="bleft">
+        <div class="large-w" style="display:flex;   flex-direction: row;">
+            Number of people: &nbsp; &nbsp;  &nbsp;
+            <div  id="ppl" style="height: 35px; width: 35px;" >
+                3
+            </div>
+            &nbsp; &nbsp; &nbsp;
+        </div>
+        <div  style="display: flex; flex-direction: row-reverse;">
+            <img src="img/arrowup.png" alt="" class="ar" id="up" >
+            <img src="img/arrowdn.png" alt="" class="ar" id="down" >
+        </div>
+        <!-- <img src="img/name.png" alt="" class="inp"> -->
+        <form action="" id="form" autocomplete="off">
+            <input class="ename"    type="text" id="name1" placeholder="Enter Name 1">
+            <input class="ename"    type="text" id="name2" placeholder="Enter Name 2">
+            <input class="ename"    type="text" id="name3" placeholder="Enter Name 3">   
+        </form>
+        <span class="large-w" style="padding-top: 70px;">
+            Number of items:
+        </span>
+        <div id="btns">
+            <img src="img/10btn.png" alt="" class="btnclass" id="10btn">
+            <img src="img/20btn.png" alt="" class="btnclass" id="20btn">
+            <img src="img/30btn.png" alt="" class="btnclass" id="30btn">
+        </div>
+            <img src="img/cal.png" alt="" class="cal" id="submit">
+            <div class="large-w" style="padding-top: 50px;">
+                Final Split:
+            </div>
+            <span id="res1" class="res">
+               
+            </span>
+            <span id="res2" class="res">
+             
+            </span>
+            <span id="res3" class="res">
+                
+            </span>
+            <span id="res4" class="res">
+               
+            </span>
+        </div>
+        
+        <div id="bright">
+            <img src="img/l4.png" style="height: 500px;">
+                <div id="table">
+                    <div  style="display: flex; flex-direction: row;">
+                        <span class="blbig" style=" display: flex; flex-direction: row;">
+                            &nbsp;  &nbsp;   &nbsp;   items   &nbsp;  &nbsp;   &nbsp; &nbsp;  cost  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                        </span>
+                        <span style="font-size: 21px; letter-spacing: 1.12px; color: #2a2d31d3; display: flex; flex-direction: row; font-weight: 300;">
+                                    <div id="nm1" class="hding">
+                                    name 1
+                                    </div>
+                                    
+                                    <div id="nm2" class="hding">
+                                    name 2
+                                    </div>
+                                   
+                                    <div id="nm3" class="hding">
+                                    name 3
+                                    </div> 
+                                   
+                                    <div id="nm4" class="hding">
+                                    
+                                    </div>    
+                        </span>
+                    </div>
+                    <div class="itmss blbig">
+                        <span style="padding-top: 23px;">
+                            &nbsp;  &nbsp;   &nbsp;   &nbsp; 1.  
+                        </span>
+                        
+                        <form action="" autocomplete="off">
+                            <input  class="costbx" type="text" id="in1" placeholder="0.00">
+                        </form>
+                        
+                        <img src="img/cross.png" class="cross one"  id="c11"alt="" >
+                        <img src="img/cross.png" class="cross two"  id="c12" alt="">
+                        <img src="img/cross.png" class="cross three"  id="c13" alt="" >
+                        <img src="img/blnk.png" class="cross four"  id="c14" alt="" >
+                    </div>
+                    <!-- <div class="itmss blbig"> 
+                    <span style="padding-top: 23px;">
+                        &nbsp;  &nbsp;   &nbsp;   &nbsp; 2.  
+                    </span>
+                    
+                    <form action="">
+                        <input  class="costbx" type="text" placeholder="0.00">
+                    </form>
+                    
+                    <img src="img/cross.png" class="cross" alt="" style="padding-left: 37px;">
+                    <img src="img/tick.png" class="tick" alt="">
+                    <img src="img/cross.png" class="cross three" alt="">
+                    <img src="" class="cross four" alt="" >
+                    </div>
+
+                    <div class="itmss blbig">
+                    <span style="padding-top: 23px;"> 
+                        &nbsp;  &nbsp;   &nbsp;   &nbsp; 3.  
+                    </span>
+                    
+                    <form action="">
+                        <input  class="costbx" type="text" placeholder="0.00">
+                    </form>
+                    
+                    <img src="img/cross.png" class="cross" alt="" style="padding-left: 37px;">
+                    <img src="img/tick.png" class="tick" alt="">
+                    <img src="img/cross.png" class="cross three" alt="">
+                    <img src="" class="cross four" alt="" >
+                    </div>
+
+                    <div class="itmss blbig"> 
+                    <span style="padding-top: 23px;">
+                        &nbsp;  &nbsp;   &nbsp;   &nbsp; 4.  
+                    </span>
+                    
+                    <form action="">
+                        <input  class="costbx" type="text" placeholder="0.00">
+                    </form>
+                    
+                    <img src="img/cross.png" class="cross" alt="" style="padding-left: 37px;">
+                    <img src="img/tick.png" class="tick" alt="">
+                    <img src="img/cross.png" class="cross three" alt="">
+                    <img src="" class="cross four" alt="" >
+                    </div> -->
+                </div>
+            </span>
+        </div>
+    </div>
+   <div style="height: 35px;    width: 100vw;">
+
+   </div>
+       
+</body>
+<script src="index.js"></script>
+</html>
