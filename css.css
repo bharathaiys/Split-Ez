@@ -1,23 +1,28 @@
 html{
-          
+          margin: 0px;
+          padding: 0px;
 }
 
 body{
    background: linear-gradient(90deg, #3D7783, #95DEEC);
    height: 100%;
     font-family: 'Josefin Sans', sans-serif;
+    margin: 0px;
+          padding: 0px;
     
 }
 
 #top{
-    padding-top: 20px;
+    padding-top: 0px;
     display: flex;
     flex-direction: row;
+    padding-top: 5px;
     
 }
 #logo{
     height: 90.4px;
     width: 192px;
+    padding-top: 10px;
     /* -webkit-transform: scale(0.3); */
     padding-left: 40px;
    
@@ -29,8 +34,8 @@ body{
     /* -webkit-transform: scale(0.5); */
     /* float: right; */
     margin-left: auto;
-    
-    padding-right: 166px;
+    padding-top: 10px;
+    padding-right: 30px;
 
 }
 #bot{
@@ -40,13 +45,13 @@ body{
 #bleft{
     display: flex;
     flex-direction: column;
-    padding-left: 100px;
-    padding-top: 48px;
+    /* padding-left: 100px; */
+    /* padding-top: 48px; */
 }
 #bright{
     display: flex;
     flex-direction: row;
-    padding-top: 48px;
+    /* padding-top: 48px; */
    padding-left: 35px;
 }
 .large-w{
@@ -122,7 +127,7 @@ body{
       margin-top: 22px;
   }
   .blbig{
-    font-size: 21px; letter-spacing: 1.12px; color: #424952de;
+    font-size: 21px; letter-spacing: 1.12px; color: #35383dc7;
   }
 
 .costbx{
@@ -130,7 +135,7 @@ body{
     /* margin-top: 25px; */
     height: 35px;
     width: 72px;
-    margin-left: 64px;
+    
     background-color: #3d778300;
     background-size:  97px 35px;
     border: none;
@@ -181,4 +186,17 @@ body{
 .hding{
     width: 115px;
     text-align: center;
+}
+#pl{
+    height: 329px;
+    width: 90px;
+    /* padding-top: 30px; */
+    /* -webkit-transform: scale(0.5); */
+}
+#pr{
+    /* -webkit-transform: scale(0.5); */
+    height: 193px;
+    width: 80px;
+    text-align: right;
+    
 }

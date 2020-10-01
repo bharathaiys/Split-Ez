@@ -180,7 +180,7 @@ down.addEventListener("click",function(){
                 n.setAttribute("class","itmss blbig");
                 n.setAttribute("id","row"+i);
                 
-                n.innerHTML="   <span style='padding-top: 23px;''> &nbsp;  &nbsp;   &nbsp;   &nbsp;"+i+".</span> <form action=''>    <input  class='costbx' type='text' id='in"+i+"' placeholder='0.00'>  </form> <img src='img/cross.png' id='c"+i+"1' class='cross one' alt='' >  <img src='img/cross.png' class='cross two' id='c"+i+"2' alt=''>    <img src='img/cross.png' class='cross three' id='c"+i+"3' alt=''>    <img src='img/blnk.png' id='c"+i+"4' class='cross four' alt='' > ",i;
+                n.innerHTML="   <div style='padding-top: 23px; width: 142px; text-align: center;'>"+i+".</div> <form action=''>    <input  class='costbx' type='text' id='in"+i+"' placeholder='0.00'>  </form> <img src='img/cross.png' id='c"+i+"1' class='cross one' alt='' >  <img src='img/cross.png' class='cross two' id='c"+i+"2' alt=''>    <img src='img/cross.png' class='cross three' id='c"+i+"3' alt=''>    <img src='img/blnk.png' id='c"+i+"4' class='cross four' alt='' > ",i;
                 document.getElementById("table").appendChild(n);    
             }
             // var twentys=document.getElementsByClassName("twenty");
@@ -241,7 +241,7 @@ down.addEventListener("click",function(){
                 n.setAttribute("class","itmss blbig");
                 n.setAttribute("id","row"+i);
                 
-                n.innerHTML="   <span style='padding-top: 23px;''> &nbsp;  &nbsp;   &nbsp;   &nbsp;"+i+".</span> <form action=''>    <input  class='costbx' type='text' id='in"+i+"' placeholder='0.00'>  </form> <img src='img/cross.png' id='c"+i+"1' class='cross one' alt='' >  <img src='img/cross.png' class='cross two' id='c"+i+"2' alt=''>    <img src='img/cross.png' class='cross three' id='c"+i+"3' alt=''>    <img src='img/blnk.png' id='c"+i+"4' class='cross four' alt='' > ",i;
+                n.innerHTML="   <div style='padding-top: 23px; width: 142px; text-align: center;'>"+i+".</div> <form action=''>    <input  class='costbx' type='text' id='in"+i+"' placeholder='0.00'>  </form> <img src='img/cross.png' id='c"+i+"1' class='cross one' alt='' >  <img src='img/cross.png' class='cross two' id='c"+i+"2' alt=''>    <img src='img/cross.png' class='cross three' id='c"+i+"3' alt=''>    <img src='img/blnk.png' id='c"+i+"4' class='cross four' alt='' > ",i;
                 document.getElementById("table").appendChild(n);    
             }
 
@@ -269,7 +269,7 @@ down.addEventListener("click",function(){
                 var n=document.createElement("div");
                 n.setAttribute("class","itmss blbig");
                 n.setAttribute("id","row"+i);
-                n.innerHTML="   <span style='padding-top: 23px;''> &nbsp;  &nbsp;   &nbsp;   &nbsp;"+i+".</span> <form action=''>    <input  class='costbx' type='text' id='in"+i+"' placeholder='0.00'>  </form> <img src='img/cross.png' id='c"+i+"1' class='cross one' alt='' >  <img src='img/cross.png' class='cross two' id='c"+i+"2' alt=''>    <img src='img/cross.png' class='cross three' id='c"+i+"3' alt=''>    <img src='img/blnk.png' id='c"+i+"4' class='cross four' alt='' > ",i;
+                n.innerHTML="   <div style='padding-top: 23px; width: 142px; text-align: center;'>"+i+".</div> <form action=''>    <input  class='costbx' type='text' id='in"+i+"' placeholder='0.00'>  </form> <img src='img/cross.png' id='c"+i+"1' class='cross one' alt='' >  <img src='img/cross.png' class='cross two' id='c"+i+"2' alt=''>    <img src='img/cross.png' class='cross three' id='c"+i+"3' alt=''>    <img src='img/blnk.png' id='c"+i+"4' class='cross four' alt='' > ",i;
                 document.getElementById("table").appendChild(n);  
             }
             
@@ -324,7 +324,7 @@ down.addEventListener("click",function(){
                 n.setAttribute("class","itmss blbig");
                 n.setAttribute("id","row"+i);
                 
-                n.innerHTML="   <span style='padding-top: 23px;''> &nbsp;  &nbsp;   &nbsp;   &nbsp;"+i+".</span> <form action=''>    <input  class='costbx' type='text' id='in"+i+"' placeholder='0.00'>  </form> <img src='img/cross.png' id='c"+i+"1' class='cross one' alt='' >  <img src='img/cross.png' class='cross two' id='c"+i+"2' alt=''>    <img src='img/cross.png' class='cross three' id='c"+i+"3' alt=''>    <img src='img/blnk.png' id='c"+i+"4' class='cross four' alt='' > ",i;
+                n.innerHTML="   <div style='padding-top: 23px; width: 142px; text-align: center;'>"+i+".</div> <form action=''>    <input  class='costbx' type='text' id='in"+i+"' placeholder='0.00'>  </form> <img src='img/cross.png' id='c"+i+"1' class='cross one' alt='' >  <img src='img/cross.png' class='cross two' id='c"+i+"2' alt=''>    <img src='img/cross.png' class='cross three' id='c"+i+"3' alt=''>    <img src='img/blnk.png' id='c"+i+"4' class='cross four' alt='' > ",i;
                 document.getElementById("table").appendChild(n);    
             }
 
@@ -342,7 +342,7 @@ down.addEventListener("click",function(){
                 n.setAttribute("class","itmss blbig");
                 n.setAttribute("id","row"+i);
                 
-                n.innerHTML="   <span style='padding-top: 23px;''> &nbsp;  &nbsp;   &nbsp;   &nbsp;"+i+".</span> <form action=''>    <input  class='costbx' type='text' id='in"+i+"' placeholder='0.00'>  </form> <img src='img/cross.png' id='c"+i+"1' class='cross one' alt='' >  <img src='img/cross.png' class='cross two' id='c"+i+"2' alt=''>    <img src='img/cross.png' class='cross three' id='c"+i+"3' alt=''>    <img src='img/blnk.png' id='c"+i+"4' class='cross four' alt='' > ",i;
+                n.innerHTML="   <div style='padding-top: 23px; width: 142px; text-align: center;'>"+i+".</div> <form action=''>    <input  class='costbx' type='text' id='in"+i+"' placeholder='0.00'>  </form> <img src='img/cross.png' id='c"+i+"1' class='cross one' alt='' >  <img src='img/cross.png' class='cross two' id='c"+i+"2' alt=''>    <img src='img/cross.png' class='cross three' id='c"+i+"3' alt=''>    <img src='img/blnk.png' id='c"+i+"4' class='cross four' alt='' > ",i;
                 document.getElementById("table").appendChild(n);    
             }
             var twen=document.getElementById("20btn");
@@ -357,7 +357,7 @@ down.addEventListener("click",function(){
                 var n=document.createElement("div");
                 n.setAttribute("class","itmss blbig");
                 n.setAttribute("id","row"+i);
-                n.innerHTML="   <span style='padding-top: 23px;''> &nbsp;  &nbsp;   &nbsp;   &nbsp;"+i+".</span> <form action=''>    <input  class='costbx' type='text' id='in"+i+"' placeholder='0.00'>  </form> <img src='img/cross.png' id='c"+i+"1' class='cross one' alt='' >  <img src='img/cross.png' class='cross two' id='c"+i+"2' alt=''>    <img src='img/cross.png' class='cross three' id='c"+i+"3' alt=''>    <img src='img/blnk.png' id='c"+i+"4' class='cross four' alt='' > ",i;
+                n.innerHTML="  <div style='padding-top: 23px; width: 142px; text-align: center;'>"+i+".</div> <form action=''>    <input  class='costbx' type='text' id='in"+i+"' placeholder='0.00'>  </form> <img src='img/cross.png' id='c"+i+"1' class='cross one' alt='' >  <img src='img/cross.png' class='cross two' id='c"+i+"2' alt=''>    <img src='img/cross.png' class='cross three' id='c"+i+"3' alt=''>    <img src='img/blnk.png' id='c"+i+"4' class='cross four' alt='' > ",i;
                 document.getElementById("table").appendChild(n);  
             }
             
@@ -435,21 +435,21 @@ down.addEventListener("click",function(){
                 }
                 
                 if(ppl.innerHTML==2){
-                    document.getElementById("res1").innerHTML=user1+": "+tot1;
-                    document.getElementById("res2").innerHTML=user2+": "+tot2;
+                    document.getElementById("res1").innerHTML=user1+": "+tot1.toFixed(2);
+                    document.getElementById("res2").innerHTML=user2+": "+tot2.toFixed(2);
 
                 }
                 else if(ppl.innerHTML==3){
-                    document.getElementById("res1").innerHTML=user1+": "+tot1;
-                    document.getElementById("res2").innerHTML=user2+": "+tot2;
-                    document.getElementById("res3").innerHTML=user3+": "+tot3;
+                    document.getElementById("res1").innerHTML=user1+": "+tot1.toFixed(2);
+                    document.getElementById("res2").innerHTML=user2+": "+tot2.toFixed(2);
+                    document.getElementById("res3").innerHTML=user3+": "+tot3.toFixed(2);
                 }
 
                 else if(ppl.innerHTML==4){
-                    document.getElementById("res1").innerHTML=user1+": "+tot1;
-                    document.getElementById("res2").innerHTML=user2+": "+tot2;
-                    document.getElementById("res3").innerHTML=user3+": "+tot3;
-                    document.getElementById("res4").innerHTML=user4+": "+tot4;
+                    document.getElementById("res1").innerHTML=user1+": "+tot1.toFixed(2);
+                    document.getElementById("res2").innerHTML=user2+": "+tot2.toFixed(2);
+                    document.getElementById("res3").innerHTML=user3+": "+tot3.toFixed(2);
+                    document.getElementById("res4").innerHTML=user4+": "+tot4.toFixed(2);
                 }
                 
                
