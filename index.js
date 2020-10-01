@@ -43,6 +43,7 @@ up.addEventListener("click",function(){
             nam3.setAttribute("id","name3");
             nam3.setAttribute("class","ename")
             nam3.setAttribute("placeholder","Enter Name 3");
+            nam3.setAttribute("autocomplete","off");
             nam3.setAttribute("type","text");
             document.getElementById("form").append(nam3);
         }
@@ -56,6 +57,7 @@ up.addEventListener("click",function(){
         nam4.setAttribute("id","name4");
         nam4.setAttribute("class","ename")
         nam4.setAttribute("placeholder","Enter Name 4");
+        nam4.setAttribute("autocomplete","off");
         nam4.setAttribute("type","text");
         document.getElementById("form").append(nam4);
 
