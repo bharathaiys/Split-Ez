@@ -5,6 +5,7 @@ SPLIT-EZ WEB APP | https://bharathaiys.github.io/SplitApp/
   displays the amount each one owes. 
   
 DESIGN ASPECT:
+
   This project also implements the new neumorphism UI design trend. Making each element seem either embossed or debossed to give the interface a 3Dimensional feel.   It is also referred to as Soft UI. Perfecting shadows and highlights was very critical for designing the required effect.
  
 HOW TO RUN:
